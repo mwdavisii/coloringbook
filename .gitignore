@@ -27,3 +27,7 @@ Thumbs.db
 .codegraph/
 .claude/settings.local.json
 .playwright-mcp/
+
+# Committed sample output for the README
+!docs/*.pdf
+!docs/*.jpg

@@ -12,6 +12,12 @@ Each page has:
 
 The joke is the contrast between a dense, serious document and a kid's plain words. The facts stay accurate.
 
+## Example
+
+[![All 14 pages of The Big Book of MCP Server Portals](docs/preview.jpg)](docs/mcp-server-portals.pdf)
+
+*The Big Book of MCP Server Portals*, made from Cloudflare's public docs. [Download the PDF](docs/mcp-server-portals.pdf) or see the [spec that built it](examples/mcp-server-portals.spec.json).
+
 ## How it works
 
 Claude writes the creative parts: the page plan, the captions, and one SVG drawing per page. `scripts/build_book.py` does the rendering: crayon filters, layout, embedded fonts, HTML, PDF, and a contact sheet for checking the result.
@@ -24,6 +30,7 @@ references/
   svg_cookbook.md         Drawing conventions and reusable SVG snippets
 assets/                   CSS, crayon JS, SVG filters, embedded fonts
 examples/                 A complete 14-page example spec (Cloudflare MCP server portals)
+docs/                     Rendered PDF and preview of that example
 ```
 
 ## Installation
