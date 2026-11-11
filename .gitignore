@@ -1,0 +1,29 @@
+# Build output
+out/
+*.pdf
+*-contact-sheet.png
+# Generated books (keep source assets)
+/*.html
+pages/
+*.spec.json
+!examples/*.spec.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Tooling
+.codegraph/
+.claude/settings.local.json
+.playwright-mcp/

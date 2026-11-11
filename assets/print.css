@@ -1,0 +1,7 @@
+/* Applied when rendering pages for PDF: one full sheet per .paper */
+html,body{background:#fffdf6 !important;margin:0;padding:0}
+.intro{display:none}
+.paper{width:var(--pw);height:var(--ph);max-width:none;margin:0;border-radius:0;box-shadow:none;
+  padding:.55in .6in .45in .95in;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.paper::before{left:.3in;top:.3in;bottom:.3in}
+h2{font-size:44px} h1{font-size:62px}
